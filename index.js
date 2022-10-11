@@ -1,14 +1,13 @@
 
 var n1=Math.random()
 var num1=Math.floor(n1*6)+1
-var randomDiceNum="dice"+num1+".png"
-var randomDiceSource1="images/"+randomDiceNum
+var randomDiceSource1="images/dice/"+num1+".png"
 var image1=document.querySelectorAll("img")[0]
 image1.setAttribute("src",randomDiceSource1)
 
 var n2=Math.random()
 var num2=Math.floor(n2*6)+1
-var randomDiceSource2="images/dice"+num2+".png"
+var randomDiceSource2="images/dice/"+num2+".png"
 var image1=document.querySelectorAll("img")[1]
 image1.setAttribute("src",randomDiceSource2)
 
