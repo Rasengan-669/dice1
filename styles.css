@@ -1,0 +1,25 @@
+.container{
+	display: flex;
+	align-item: center;
+	justify-content: center;
+}
+.dice p, h1{
+	text-align: center;
+}
+img{
+	height: 300px;
+	width: 100%;
+}
+.center{
+	display: flex;
+  	justify-content: center;
+  	align-items: center;
+}
+button{
+	padding: 5px;
+	font-size: 20px;
+}
+footer{
+	text-align: center;
+	margin-top: 20px;
+}
